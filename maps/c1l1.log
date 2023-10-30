@@ -1,0 +1,950 @@
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\half-life 2\hl2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-255.54 -1132.33 73.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (58658 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 161
+Reduced 36 texdatas to 33 (738 bytes to 638)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+No vis information, direct lighting only.
+1232 faces
+271457 square feet [39089856.00 square inches]
+14 Displacements
+64681 Square Feet [9314067.00 Square Inches]
+2 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0042 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                161/8192         1932/98304    ( 2.0%) 
+brushsides            1035/65536        8280/524288   ( 1.6%) 
+planes                 536/65536       10720/1310720  ( 0.8%) 
+vertexes              1691/65536       20292/786432   ( 2.6%) 
+nodes                  781/65536       24992/2097152  ( 1.2%) 
+texinfos               161/12288       11592/884736   ( 1.3%) 
+texdata                 33/2048         1056/65536    ( 1.6%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples      137044/0          137044/0        ( 0.0%) 
+faces                 1232/65536       68992/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              557/65536       31192/3670016  ( 0.8%) 
+leaves                 783/65536       25056/2097152  ( 1.2%) 
+leaffaces             1373/65536        2746/131072   ( 2.1%) 
+leafbrushes            375/65536         750/131072   ( 0.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             7930/512000      31720/2048000  ( 1.5%) 
+edges                 4475/256000      17900/1024000  ( 1.7%) 
+LDR worldlights          2/8192          176/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             69/32768         690/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1077/65536        2154/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      727400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        7736/393216   ( 2.0%) 
+LDR ambient table      783/65536        3132/262144   ( 1.2%) 
+HDR ambient table      783/65536        3132/262144   ( 1.2%) 
+LDR leaf ambient      3041/65536       85148/1835008  ( 4.6%) 
+HDR leaf ambient       783/65536       21924/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/552816   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/862      ( 0.1%) 
+pakfile               [variable]      211787/0        ( 0.0%) 
+physics               [variable]       58658/4194304  ( 1.4%) 
+physics terrain       [variable]        1038/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 3238
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+7 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\half-life 2\hl2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-255.54 -1132.33 73.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (58658 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 225 texinfos to 161
+Reduced 36 texdatas to 33 (738 bytes to 638)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+No vis information, direct lighting only.
+1232 faces
+271457 square feet [39089856.00 square inches]
+14 Displacements
+64681 Square Feet [9314067.00 Square Inches]
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0047 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                161/8192         1932/98304    ( 2.0%) 
+brushsides            1035/65536        8280/524288   ( 1.6%) 
+planes                 536/65536       10720/1310720  ( 0.8%) 
+vertexes              1691/65536       20292/786432   ( 2.6%) 
+nodes                  781/65536       24992/2097152  ( 1.2%) 
+texinfos               161/12288       11592/884736   ( 1.3%) 
+texdata                 33/2048         1056/65536    ( 1.6%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples      137044/0          137044/0        ( 0.0%) 
+faces                 1232/65536       68992/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              557/65536       31192/3670016  ( 0.8%) 
+leaves                 783/65536       25056/2097152  ( 1.2%) 
+leaffaces             1373/65536        2746/131072   ( 2.1%) 
+leafbrushes            375/65536         750/131072   ( 0.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             7930/512000      31720/2048000  ( 1.5%) 
+edges                 4475/256000      17900/1024000  ( 1.7%) 
+LDR worldlights          4/8192          352/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             69/32768         690/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1077/65536        2154/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      727400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        8068/393216   ( 2.1%) 
+LDR ambient table      783/65536        3132/262144   ( 1.2%) 
+HDR ambient table      783/65536        3132/262144   ( 1.2%) 
+LDR leaf ambient      3047/65536       85316/1835008  ( 4.6%) 
+HDR leaf ambient       783/65536       21924/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/552816   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/862      ( 0.1%) 
+pakfile               [variable]      211787/0        ( 0.0%) 
+physics               [variable]       58658/4194304  ( 1.4%) 
+physics terrain       [variable]        1038/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 3238
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+5 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\half-life 2\hl2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-255.54 -1132.33 73.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (59163 bytes)
+Static prop models/props_foliage/driftwood_clump_03a.mdl outside the map (-288.45, -609.47, 67.07)
+Static prop models/props_junk/garbage256_composite002a.mdl outside the map (206.43, -198.15, 70.70)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 228 texinfos to 162
+Reduced 37 texdatas to 34 (760 bytes to 660)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+No vis information, direct lighting only.
+1232 faces
+271457 square feet [39089856.00 square inches]
+14 Displacements
+64681 Square Feet [9314067.00 Square Inches]
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0037 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                162/8192         1944/98304    ( 2.0%) 
+brushsides            1041/65536        8328/524288   ( 1.6%) 
+planes                 538/65536       10760/1310720  ( 0.8%) 
+vertexes              1691/65536       20292/786432   ( 2.6%) 
+nodes                  781/65536       24992/2097152  ( 1.2%) 
+texinfos               162/12288       11664/884736   ( 1.3%) 
+texdata                 34/2048         1088/65536    ( 1.7%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples      137044/0          137044/0        ( 0.0%) 
+faces                 1232/65536       68992/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              557/65536       31192/3670016  ( 0.8%) 
+leaves                 783/65536       25056/2097152  ( 1.2%) 
+leaffaces             1373/65536        2746/131072   ( 2.1%) 
+leafbrushes            379/65536         758/131072   ( 0.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             7930/512000      31720/2048000  ( 1.5%) 
+edges                 4475/256000      17900/1024000  ( 1.7%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             69/32768         690/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1077/65536        2154/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      741720/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       10604/393216   ( 2.7%) 
+LDR ambient table      783/65536        3132/262144   ( 1.2%) 
+HDR ambient table      783/65536        3132/262144   ( 1.2%) 
+LDR leaf ambient      3111/65536       87108/1835008  ( 4.7%) 
+HDR leaf ambient       783/65536       21924/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/552816   ( 0.0%) 
+dtl prp lght          [variable]           1/1794     ( 0.1%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1074     ( 0.1%) 
+pakfile               [variable]      211787/0        ( 0.0%) 
+physics               [variable]       59163/4194304  ( 1.4%) 
+physics terrain       [variable]        1038/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 3238
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+5 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\half-life 2\hl2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-255.54 -1132.33 73.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (59163 bytes)
+Static prop models/props_foliage/driftwood_clump_03a.mdl outside the map (-288.45, -609.47, 67.07)
+Static prop models/props_junk/garbage256_composite002a.mdl outside the map (206.43, -198.15, 70.70)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 228 texinfos to 162
+Reduced 37 texdatas to 34 (760 bytes to 660)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+No vis information, direct lighting only.
+1232 faces
+271457 square feet [39089856.00 square inches]
+14 Displacements
+64681 Square Feet [9314067.00 Square Inches]
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0037 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                162/8192         1944/98304    ( 2.0%) 
+brushsides            1041/65536        8328/524288   ( 1.6%) 
+planes                 538/65536       10760/1310720  ( 0.8%) 
+vertexes              1691/65536       20292/786432   ( 2.6%) 
+nodes                  781/65536       24992/2097152  ( 1.2%) 
+texinfos               162/12288       11664/884736   ( 1.3%) 
+texdata                 34/2048         1088/65536    ( 1.7%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples      137044/0          137044/0        ( 0.0%) 
+faces                 1232/65536       68992/3670016  ( 1.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              557/65536       31192/3670016  ( 0.8%) 
+leaves                 783/65536       25056/2097152  ( 1.2%) 
+leaffaces             1373/65536        2746/131072   ( 2.1%) 
+leafbrushes            379/65536         758/131072   ( 0.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             7930/512000      31720/2048000  ( 1.5%) 
+edges                 4475/256000      17900/1024000  ( 1.7%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             69/32768         690/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1077/65536        2154/131072   ( 1.6%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      741720/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       10276/393216   ( 2.6%) 
+LDR ambient table      783/65536        3132/262144   ( 1.2%) 
+HDR ambient table      783/65536        3132/262144   ( 1.2%) 
+LDR leaf ambient      3111/65536       87108/1835008  ( 4.7%) 
+HDR leaf ambient       783/65536       21924/1835008  ( 1.2%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/552816   ( 0.0%) 
+dtl prp lght          [variable]           1/1794     ( 0.1%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1268     ( 0.1%) 
+pakfile               [variable]      211787/0        ( 0.0%) 
+physics               [variable]       59163/4194304  ( 1.4%) 
+physics terrain       [variable]        1038/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 3238
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+5 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\half-life 2\hl2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-255.54 -1132.33 73.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (64643 bytes)
+Static prop models/props_foliage/driftwood_clump_03a.mdl outside the map (-288.45, -609.47, 67.07)
+Static prop models/props_junk/garbage256_composite002a.mdl outside the map (206.43, -198.15, 70.70)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 232 texinfos to 167
+Reduced 38 texdatas to 35 (778 bytes to 678)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+1 second elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+No vis information, direct lighting only.
+1285 faces
+271485 square feet [39093848.00 square inches]
+14 Displacements
+64681 Square Feet [9314067.00 Square Inches]
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0038 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                179/8192         2148/98304    ( 2.2%) 
+brushsides            1165/65536        9320/524288   ( 1.8%) 
+planes                 566/65536       11320/1310720  ( 0.9%) 
+vertexes              1787/65536       21444/786432   ( 2.7%) 
+nodes                  841/65536       26912/2097152  ( 1.3%) 
+texinfos               167/12288       12024/884736   ( 1.4%) 
+texdata                 35/2048         1120/65536    ( 1.7%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples      137044/0          137044/0        ( 0.0%) 
+faces                 1285/65536       71960/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              588/65536       32928/3670016  ( 0.9%) 
+leaves                 843/65536       26976/2097152  ( 1.3%) 
+leaffaces             1442/65536        2884/131072   ( 2.2%) 
+leafbrushes            418/65536         836/131072   ( 0.6%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             8308/512000      33232/2048000  ( 1.6%) 
+edges                 4694/256000      18776/1024000  ( 1.8%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             74/32768         740/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1170/65536        2340/131072   ( 1.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      746816/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       10295/393216   ( 2.6%) 
+LDR ambient table      843/65536        3372/262144   ( 1.3%) 
+HDR ambient table      843/65536        3372/262144   ( 1.3%) 
+LDR leaf ambient      3503/65536       98084/1835008  ( 5.3%) 
+HDR leaf ambient       843/65536       23604/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/552816   ( 0.0%) 
+dtl prp lght          [variable]           1/1794     ( 0.1%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1268     ( 0.1%) 
+pakfile               [variable]      211787/0        ( 0.0%) 
+physics               [variable]       64643/4194304  ( 1.5%) 
+physics terrain       [variable]        1038/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 3386
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\half-life 2\hl2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-255.54 -1132.33 73.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (67599 bytes)
+Static prop models/props_foliage/driftwood_clump_02a.mdl outside the map (56.00, -816.89, 64.00)
+Static prop models/props_foliage/driftwood_clump_03a.mdl outside the map (-288.45, -609.47, 67.07)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 247 texinfos to 182
+Reduced 40 texdatas to 37 (816 bytes to 716)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+No vis information, direct lighting only.
+1322 faces
+271826 square feet [39143000.00 square inches]
+14 Displacements
+64681 Square Feet [9314067.00 Square Inches]
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                187/8192         2244/98304    ( 2.3%) 
+brushsides            1213/65536        9704/524288   ( 1.9%) 
+planes                 570/65536       11400/1310720  ( 0.9%) 
+vertexes              1837/65536       22044/786432   ( 2.8%) 
+nodes                  862/65536       27584/2097152  ( 1.3%) 
+texinfos               182/12288       13104/884736   ( 1.5%) 
+texdata                 37/2048         1184/65536    ( 1.8%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples      137044/0          137044/0        ( 0.0%) 
+faces                 1322/65536       74032/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              625/65536       35000/3670016  ( 1.0%) 
+leaves                 864/65536       27648/2097152  ( 1.3%) 
+leaffaces             1485/65536        2970/131072   ( 2.3%) 
+leafbrushes            427/65536         854/131072   ( 0.7%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             8624/512000      34496/2048000  ( 1.7%) 
+edges                 4868/256000      19472/1024000  ( 1.9%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             77/32768         770/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1224/65536        2448/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      753868/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       11861/393216   ( 3.0%) 
+LDR ambient table      864/65536        3456/262144   ( 1.3%) 
+HDR ambient table      864/65536        3456/262144   ( 1.3%) 
+LDR leaf ambient      3544/65536       99232/1835008  ( 5.4%) 
+HDR leaf ambient       864/65536       24192/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/532536   ( 0.0%) 
+dtl prp lght          [variable]           1/1419     ( 0.1%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1072     ( 0.1%) 
+pakfile               [variable]      211787/0        ( 0.0%) 
+physics               [variable]       67599/4194304  ( 1.6%) 
+physics terrain       [variable]        1038/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 3480
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+5 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\half-life 2\hl2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity env_soundscape (-88.57 -1219.22 86.26) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (67599 bytes)
+Static prop models/props_foliage/driftwood_clump_02a.mdl outside the map (56.00, -816.89, 64.00)
+Static prop models/props_foliage/driftwood_clump_03a.mdl outside the map (-288.45, -609.47, 67.07)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 247 texinfos to 182
+Reduced 40 texdatas to 37 (816 bytes to 716)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+No vis information, direct lighting only.
+1322 faces
+271826 square feet [39143000.00 square inches]
+14 Displacements
+64681 Square Feet [9314067.00 Square Inches]
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0039 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                187/8192         2244/98304    ( 2.3%) 
+brushsides            1213/65536        9704/524288   ( 1.9%) 
+planes                 570/65536       11400/1310720  ( 0.9%) 
+vertexes              1837/65536       22044/786432   ( 2.8%) 
+nodes                  862/65536       27584/2097152  ( 1.3%) 
+texinfos               182/12288       13104/884736   ( 1.5%) 
+texdata                 37/2048         1184/65536    ( 1.8%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples      137044/0          137044/0        ( 0.0%) 
+faces                 1322/65536       74032/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              625/65536       35000/3670016  ( 1.0%) 
+leaves                 864/65536       27648/2097152  ( 1.3%) 
+leaffaces             1485/65536        2970/131072   ( 2.3%) 
+leafbrushes            427/65536         854/131072   ( 0.7%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             8624/512000      34496/2048000  ( 1.7%) 
+edges                 4868/256000      19472/1024000  ( 1.9%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             77/32768         770/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1224/65536        2448/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      753868/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       12291/393216   ( 3.1%) 
+LDR ambient table      864/65536        3456/262144   ( 1.3%) 
+HDR ambient table      864/65536        3456/262144   ( 1.3%) 
+LDR leaf ambient      3544/65536       99232/1835008  ( 5.4%) 
+HDR leaf ambient       864/65536       24192/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/532536   ( 0.0%) 
+dtl prp lght          [variable]           1/1419     ( 0.1%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1072     ( 0.1%) 
+pakfile               [variable]      211787/0        ( 0.0%) 
+physics               [variable]       67599/4194304  ( 1.6%) 
+physics terrain       [variable]        1038/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 3480
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+6 seconds elapsed
+
+
+
+Using shader api: shaderapiempty.dll
+materialPath: D:\SteamLibrary\steamapps\common\half-life 2\hl2\materials
+Loading C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.vmf
+Could not locate 'GameData' key in d:\steamlibrary\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity env_soundscape (-88.57 -1219.22 86.26) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (68152 bytes)
+Static prop models/props_foliage/driftwood_clump_02a.mdl outside the map (56.00, -816.89, 64.00)
+Static prop models/props_foliage/driftwood_clump_03a.mdl outside the map (-288.45, -609.47, 67.07)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 253 texinfos to 185
+Reduced 41 texdatas to 38 (835 bytes to 735)
+Writing C:\Program Files (x86)\Steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+0 seconds elapsed
+
+
+
+4 threads
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+reading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+LoadPortals: couldn't read c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+No vis information, direct lighting only.
+1328 faces
+271969 square feet [39163592.00 square inches]
+14 Displacements
+64681 Square Feet [9314067.00 Square Inches]
+11 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0038 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   2/1024           96/49152    ( 0.2%) 
+brushes                188/8192         2256/98304    ( 2.3%) 
+brushsides            1219/65536        9752/524288   ( 1.9%) 
+planes                 594/65536       11880/1310720  ( 0.9%) 
+vertexes              1845/65536       22140/786432   ( 2.8%) 
+nodes                  868/65536       27776/2097152  ( 1.3%) 
+texinfos               185/12288       13320/884736   ( 1.5%) 
+texdata                 38/2048         1216/65536    ( 1.9%) 
+dispinfos               14/0            2464/0        ( 0.0%) 
+disp_verts            1134/0           22680/0        ( 0.0%) 
+disp_tris             1792/0            3584/0        ( 0.0%) 
+disp_lmsamples      137044/0          137044/0        ( 0.0%) 
+faces                 1328/65536       74368/3670016  ( 2.0%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              631/65536       35336/3670016  ( 1.0%) 
+leaves                 871/65536       27872/2097152  ( 1.3%) 
+leaffaces             1491/65536        2982/131072   ( 2.3%) 
+leafbrushes            428/65536         856/131072   ( 0.7%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges             8672/512000      34688/2048000  ( 1.7%) 
+edges                 4892/256000      19568/1024000  ( 1.9%) 
+LDR worldlights         11/8192          968/720896   ( 0.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips             77/32768         770/327680   ( 0.2%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          1224/65536        2448/131072   ( 1.9%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]      753868/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]       12509/393216   ( 3.2%) 
+LDR ambient table      871/65536        3484/262144   ( 1.3%) 
+HDR ambient table      871/65536        3484/262144   ( 1.3%) 
+LDR leaf ambient      3550/65536       99400/1835008  ( 5.4%) 
+HDR leaf ambient       871/65536       24388/1835008  ( 1.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/532536   ( 0.0%) 
+dtl prp lght          [variable]           1/1419     ( 0.1%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/1072     ( 0.1%) 
+pakfile               [variable]      211787/0        ( 0.0%) 
+physics               [variable]       68152/4194304  ( 1.6%) 
+physics terrain       [variable]        1038/1048576  ( 0.1%) 
+
+Level flags = 0
+
+Total triangle count: 3492
+Writing c:\program files (x86)\steam\steamapps\sourcemods\fight_or_suffer\maps\c1l1.bsp
+5 seconds elapsed
